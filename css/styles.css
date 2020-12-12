@@ -115,3 +115,40 @@ body {
 .pricing-column{
   padding: 3%;
 }
+
+
+/* Footer */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  font-family: Ubuntu;
+  padding: 20px;
+}
+#footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.f-icon{
+  padding: 20px;
+}
+/* Mobile-responsive */
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  body{
+    text-align: center;
+  }
+  .title-image
+  {
+    position: static;
+    transform:rotate(0);
+  }
+}
+h3{
+  font-size: 2rem;
+  margin-top: 40px;
+}
